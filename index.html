@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>WEB - Welcome</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK4RGEJPWD"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-VK4RGEJPWD');
+    gtag('config', 'G-VK4RGEJPWD');
 </script>
+<!-- Google tag (gtag.js) -->
 
 <body>
     <h1><a href="index.html">WEB</a></h1>
-    <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-    </ol>
-    <h2>WEB</h2>
-    <p>This is WEB.</p>
-    <p>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
+        <div id="article">
+            <h2>WEB</h2>
+            <p>This is WEB.</p>
+        </div>
+    </div>
+    <!-- <p>
         <div id="disqus_thread"></div>
         <script>
         (function() { // DON'T EDIT BELOW THIS LINE
@@ -48,6 +56,7 @@
             s0.parentNode.insertBefore(s1,s0);
             })();
             </script>
-        </p>
-    </body>
+        </p> -->
+</body>
+
 </html>
